@@ -1,0 +1,7 @@
+<Validation>
+    <XMLTag>
+        <ExpectedParameter>currencyName</ExpectedParameter>
+        <Tag>CurrencyNameResult</Tag>
+        <RequestFile>CurrencyName</RequestFile>
+    </XMLTag>
+</Validation>

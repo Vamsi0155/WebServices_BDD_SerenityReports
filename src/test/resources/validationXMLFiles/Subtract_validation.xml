@@ -1,0 +1,7 @@
+<Validation>
+    <XMLTag>
+        <ExpectedParameter>results</ExpectedParameter>
+        <Tag>SubtractResult</Tag>
+        <RequestFile>Subtract</RequestFile>
+    </XMLTag>
+</Validation>

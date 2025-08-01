@@ -1,0 +1,7 @@
+<Validation>
+    <XMLTag>
+        <ExpectedParameter>countryCode</ExpectedParameter>
+        <Tag>CountryISOCodeResult</Tag>
+        <RequestFile>CountryISOCode</RequestFile>
+    </XMLTag>
+</Validation>

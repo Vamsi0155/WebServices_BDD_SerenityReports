@@ -1,0 +1,7 @@
+<Validation>
+    <XMLTag>
+        <ExpectedParameter>results</ExpectedParameter>
+        <Tag>DivideResult</Tag>
+        <RequestFile>Divide</RequestFile>
+    </XMLTag>
+</Validation>

@@ -1,0 +1,7 @@
+<Validation>
+    <XMLTag>
+        <ExpectedParameter>results</ExpectedParameter>
+        <Tag>MultiplyResult</Tag>
+        <RequestFile>Multiply</RequestFile>
+    </XMLTag>
+</Validation>

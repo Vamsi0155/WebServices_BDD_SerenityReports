@@ -1,0 +1,707 @@
+11:09:11.509 [main] INFO  MyCustomListener.class - 
+    _     __  __  _______   ___   ____   ____     _   _______  _   ___   ____    _                 
+   / \   | |  | ||__   __| / _ \ | |\ \ / /| |   / \ |__   __|| | / - \ | |\ \  | |    
+  / _ \  | |  | |   | |   | / \ || |  \_/  | |  / _ \   | |   | || / \ || | \ \ | |     
+ / ___ \ | \__/ |   | |   | \_/ || |       | | / --- \  | |   | || \_/ || |  \ \| |     
+/_/   \_\ \____/    |_|    \___/ |_|       |_|/_/   \_\ |_|   |_| \___/ |_|   \__/     
+--------------------------------------------------------------------------------------------
+11:09:11.524 [main] INFO  MyCustomListener.class - Automation Suite Started at: 2025-08-01 11:09:11
+11:09:11.665 [main] INFO  ServiceLoader.class - configuration properties loaded successfully from: E:\IntelliJ_Workspace\WebServices_BDD_SerenityReports//configure.properties
+11:09:11.665 [main] INFO  ServiceLoader.class - WS endpoints properties loaded successfully from: E:\IntelliJ_Workspace\WebServices_BDD_SerenityReports//src//test//resources//properties//wsdls.properties
+11:09:11.759 [main] INFO  ServiceLoader.class - No.of validation xml files loaded: 10
+11:09:11.759 [main] INFO  ServiceLoader.class - Directory created: ./target/testxmls/request/
+11:09:11.759 [main] INFO  ServiceLoader.class - Directory created: ./target/testxmls/response/
+11:09:11.759 [main] INFO  Hooks.class - Automation Suit Started on null environment
+11:09:11.759 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: Addition.feature
+11:09:12.040 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: Division.feature
+11:09:12.055 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: Multiply.feature
+11:09:12.087 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: Subtraction.feature
+11:09:12.102 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: CountryDetails.feature
+11:09:12.118 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: CountryInfo.feature
+11:09:12.134 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: CurrencyDetails.feature
+11:09:12.134 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: CelsiusToFahrenheit.feature
+11:09:12.149 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: FahrenheitToCelsius.feature
+11:09:12.165 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: Addition.feature
+11:09:12.602 [main] INFO  Hooks.class - Entered before scenario
+11:09:12.602 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: Add any two numbers. 
+----------------------------------------------------------------------(src/test/resources/features/calculator/Addition.feature; Add any two numbers.)
+11:09:12.712 [main] INFO  WSBaseClass.class - Request file built for service for Add : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <Add xmlns="http://tempuri.org/">
+            <intA>352</intA>
+            <intB>233</intB>
+        </Add>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:15.645 [main] INFO  WSBaseClass.class - Response File Built for service Add : <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>585</AddResult></AddResponse></soap:Body></soap:Envelope>
+11:09:15.833 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Add any two numbers. 
+----------------------------------------------------------------------
+11:09:15.833 [main] INFO  Hooks.class - Entered after scenario
+11:09:15.833 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:3, Result:PASSED, Feature:Addition.feature, StartTime:2025-08-01T11:09:12.290+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:15.942 [main] INFO  Hooks.class - Entered before scenario
+11:09:15.942 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: Add any two decimal numbers 
+----------------------------------------------------------------------(src/test/resources/features/calculator/Addition.feature; Add any two decimal numbers)
+11:09:15.958 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\request\Add.xml is deleted
+11:09:15.973 [main] INFO  WSBaseClass.class - Request file built for service for Add : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <Add xmlns="http://tempuri.org/">
+            <intA>675</intA>
+            <intB>567</intB>
+        </Add>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:15.973 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\response\Add.xml is deleted
+11:09:16.536 [main] INFO  WSBaseClass.class - Response File Built for service Add : <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><AddResponse xmlns="http://tempuri.org/"><AddResult>1242</AddResult></AddResponse></soap:Body></soap:Envelope>
+11:09:16.551 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Add any two decimal numbers 
+----------------------------------------------------------------------
+11:09:16.551 [main] INFO  Hooks.class - Entered after scenario
+11:09:16.551 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:Addition.feature, StartTime:2025-08-01T11:09:15.911+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:16.583 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: Division.feature
+11:09:16.614 [main] INFO  Hooks.class - Entered before scenario
+11:09:16.614 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: Division of any two numbers 
+----------------------------------------------------------------------(src/test/resources/features/calculator/Division.feature; Division of any two numbers)
+11:09:16.630 [main] INFO  WSBaseClass.class - Request file built for service for Divide : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <Divide xmlns="http://tempuri.org/">
+            <intA>350</intA>
+            <intB>20</intB>
+        </Divide>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:17.176 [main] INFO  WSBaseClass.class - Response File Built for service Divide : <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><DivideResponse xmlns="http://tempuri.org/"><DivideResult>18</DivideResult></DivideResponse></soap:Body></soap:Envelope>
+11:09:17.192 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Division of any two numbers 
+----------------------------------------------------------------------
+11:09:17.192 [main] INFO  Hooks.class - Entered after scenario
+11:09:17.192 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:Division.feature, StartTime:2025-08-01T11:09:16.598+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:17.223 [main] INFO  Hooks.class - Entered before scenario
+11:09:17.223 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: Division of any two decimal numbers 
+----------------------------------------------------------------------(src/test/resources/features/calculator/Division.feature; Division of any two decimal numbers)
+11:09:17.239 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\request\Divide.xml is deleted
+11:09:17.239 [main] INFO  WSBaseClass.class - Request file built for service for Divide : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <Divide xmlns="http://tempuri.org/">
+            <intA>675</intA>
+            <intB>10</intB>
+        </Divide>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:17.239 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\response\Divide.xml is deleted
+11:09:17.755 [main] INFO  WSBaseClass.class - Response File Built for service Divide : <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><DivideResponse xmlns="http://tempuri.org/"><DivideResult>68</DivideResult></DivideResponse></soap:Body></soap:Envelope>
+11:09:17.770 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Division of any two decimal numbers 
+----------------------------------------------------------------------
+11:09:17.770 [main] INFO  Hooks.class - Entered after scenario
+11:09:17.770 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:Division.feature, StartTime:2025-08-01T11:09:17.208+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:17.786 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: Multiply.feature
+11:09:17.864 [main] INFO  Hooks.class - Entered before scenario
+11:09:17.864 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: Multiply any two numbers 
+----------------------------------------------------------------------(src/test/resources/features/calculator/Multiply.feature; Multiply any two numbers)
+11:09:17.880 [main] INFO  WSBaseClass.class - Request file built for service for Multiply : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <Multiply xmlns="http://tempuri.org/">
+            <intA>352</intA>
+            <intB>23</intB>
+        </Multiply>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:18.395 [main] INFO  WSBaseClass.class - Response File Built for service Multiply : <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><MultiplyResponse xmlns="http://tempuri.org/"><MultiplyResult>8096</MultiplyResult></MultiplyResponse></soap:Body></soap:Envelope>
+11:09:18.411 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Multiply any two numbers 
+----------------------------------------------------------------------
+11:09:18.411 [main] INFO  Hooks.class - Entered after scenario
+11:09:18.426 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:Multiply.feature, StartTime:2025-08-01T11:09:17.848+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:18.458 [main] INFO  Hooks.class - Entered before scenario
+11:09:18.458 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: Multiply any two decimal numbers 
+----------------------------------------------------------------------(src/test/resources/features/calculator/Multiply.feature; Multiply any two decimal numbers)
+11:09:18.473 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\request\Multiply.xml is deleted
+11:09:18.473 [main] INFO  WSBaseClass.class - Request file built for service for Multiply : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <Multiply xmlns="http://tempuri.org/">
+            <intA>67</intA>
+            <intB>56</intB>
+        </Multiply>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:18.473 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\response\Multiply.xml is deleted
+11:09:19.098 [main] INFO  WSBaseClass.class - Response File Built for service Multiply : <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><MultiplyResponse xmlns="http://tempuri.org/"><MultiplyResult>3752</MultiplyResult></MultiplyResponse></soap:Body></soap:Envelope>
+11:09:19.145 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Multiply any two decimal numbers 
+----------------------------------------------------------------------
+11:09:19.145 [main] INFO  Hooks.class - Entered after scenario
+11:09:19.145 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:Multiply.feature, StartTime:2025-08-01T11:09:18.442+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:19.161 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: Subtraction.feature
+11:09:19.192 [main] INFO  Hooks.class - Entered before scenario
+11:09:19.192 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: Subtract any two numbers 
+----------------------------------------------------------------------(src/test/resources/features/calculator/Subtraction.feature; Subtract any two numbers)
+11:09:19.208 [main] INFO  WSBaseClass.class - Request file built for service for Subtract : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <Subtract xmlns="http://tempuri.org/">
+            <intA>352</intA>
+            <intB>233</intB>
+        </Subtract>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:19.708 [main] INFO  WSBaseClass.class - Response File Built for service Subtract : <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>119</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+11:09:19.723 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Subtract any two numbers 
+----------------------------------------------------------------------
+11:09:19.723 [main] INFO  Hooks.class - Entered after scenario
+11:09:19.739 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:Subtraction.feature, StartTime:2025-08-01T11:09:19.176+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:19.770 [main] INFO  Hooks.class - Entered before scenario
+11:09:19.770 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: Subtract any two decimal numbers 
+----------------------------------------------------------------------(src/test/resources/features/calculator/Subtraction.feature; Subtract any two decimal numbers)
+11:09:19.786 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\request\Subtract.xml is deleted
+11:09:19.786 [main] INFO  WSBaseClass.class - Request file built for service for Subtract : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <Subtract xmlns="http://tempuri.org/">
+            <intA>675</intA>
+            <intB>567</intB>
+        </Subtract>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:19.786 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\response\Subtract.xml is deleted
+11:09:20.302 [main] INFO  WSBaseClass.class - Response File Built for service Subtract : <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><SubtractResponse xmlns="http://tempuri.org/"><SubtractResult>108</SubtractResult></SubtractResponse></soap:Body></soap:Envelope>
+11:09:20.333 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Subtract any two decimal numbers 
+----------------------------------------------------------------------
+11:09:20.333 [main] INFO  Hooks.class - Entered after scenario
+11:09:20.333 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:Subtraction.feature, StartTime:2025-08-01T11:09:19.755+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:20.348 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: CountryDetails.feature
+11:09:20.426 [main] INFO  Hooks.class - Entered before scenario
+11:09:20.426 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: validate the country name by using ISO code. 
+----------------------------------------------------------------------(src/test/resources/features/countryInfo/CountryDetails.feature; validate the country name by using ISO code.)
+11:09:20.442 [main] INFO  WSBaseClass.class - Request file built for service for CountryName : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <CountryName xmlns="http://www.oorsprong.org/websamples.countryinfo">
+            <sCountryISOCode>IND</sCountryISOCode>
+        </CountryName>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:20.817 [main] INFO  WSBaseClass.class - Response File Built for service CountryName : <?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Body>
+    <m:CountryNameResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CountryNameResult>India</m:CountryNameResult>
+    </m:CountryNameResponse>
+  </soap:Body>
+</soap:Envelope>
+11:09:20.864 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: validate the country name by using ISO code. 
+----------------------------------------------------------------------
+11:09:20.864 [main] INFO  Hooks.class - Entered after scenario
+11:09:20.864 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:CountryDetails.feature, StartTime:2025-08-01T11:09:20.380+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:20.895 [main] INFO  Hooks.class - Entered before scenario
+11:09:20.895 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: validate the country name by using ISO code. 
+----------------------------------------------------------------------(src/test/resources/features/countryInfo/CountryDetails.feature; validate the country name by using ISO code.)
+11:09:20.911 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\request\CountryName.xml is deleted
+11:09:20.911 [main] INFO  WSBaseClass.class - Request file built for service for CountryName : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <CountryName xmlns="http://www.oorsprong.org/websamples.countryinfo">
+            <sCountryISOCode>USA</sCountryISOCode>
+        </CountryName>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:20.911 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\response\CountryName.xml is deleted
+11:09:21.286 [main] INFO  WSBaseClass.class - Response File Built for service CountryName : <?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Body>
+    <m:CountryNameResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CountryNameResult>United States</m:CountryNameResult>
+    </m:CountryNameResponse>
+  </soap:Body>
+</soap:Envelope>
+11:09:21.301 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: validate the country name by using ISO code. 
+----------------------------------------------------------------------
+11:09:21.301 [main] INFO  Hooks.class - Entered after scenario
+11:09:21.301 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:CountryDetails.feature, StartTime:2025-08-01T11:09:20.880+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:21.333 [main] INFO  Hooks.class - Entered before scenario
+11:09:21.333 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: validate the country ISO code by using name. 
+----------------------------------------------------------------------(src/test/resources/features/countryInfo/CountryDetails.feature; validate the country ISO code by using name.)
+11:09:21.348 [main] INFO  WSBaseClass.class - Request file built for service for CountryISOCode : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <CountryISOCode xmlns="http://www.oorsprong.org/websamples.countryinfo">
+            <sCountryName>India</sCountryName>
+        </CountryISOCode>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:21.708 [main] INFO  WSBaseClass.class - Response File Built for service CountryISOCode : <?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Body>
+    <m:CountryISOCodeResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CountryISOCodeResult>IN</m:CountryISOCodeResult>
+    </m:CountryISOCodeResponse>
+  </soap:Body>
+</soap:Envelope>
+11:09:21.739 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: validate the country ISO code by using name. 
+----------------------------------------------------------------------
+11:09:21.739 [main] INFO  Hooks.class - Entered after scenario
+11:09:21.739 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:CountryDetails.feature, StartTime:2025-08-01T11:09:21.317+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:21.786 [main] INFO  Hooks.class - Entered before scenario
+11:09:21.786 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: validate the country ISO code by using name. 
+----------------------------------------------------------------------(src/test/resources/features/countryInfo/CountryDetails.feature; validate the country ISO code by using name.)
+11:09:21.801 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\request\CountryISOCode.xml is deleted
+11:09:21.801 [main] INFO  WSBaseClass.class - Request file built for service for CountryISOCode : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <CountryISOCode xmlns="http://www.oorsprong.org/websamples.countryinfo">
+            <sCountryName>United States</sCountryName>
+        </CountryISOCode>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:21.801 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\response\CountryISOCode.xml is deleted
+11:09:22.177 [main] INFO  WSBaseClass.class - Response File Built for service CountryISOCode : <?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Body>
+    <m:CountryISOCodeResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CountryISOCodeResult>US</m:CountryISOCodeResult>
+    </m:CountryISOCodeResponse>
+  </soap:Body>
+</soap:Envelope>
+11:09:22.223 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: validate the country ISO code by using name. 
+----------------------------------------------------------------------
+11:09:22.223 [main] INFO  Hooks.class - Entered after scenario
+11:09:22.223 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:CountryDetails.feature, StartTime:2025-08-01T11:09:21.755+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:22.223 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: CountryInfo.feature
+11:09:22.255 [main] INFO  Hooks.class - Entered before scenario
+11:09:22.255 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: validate the country information. 
+----------------------------------------------------------------------(src/test/resources/features/countryInfo/CountryInfo.feature; validate the country information.)
+11:09:22.270 [main] INFO  WSBaseClass.class - Request file built for service for FullCountryInfo : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <FullCountryInfo xmlns="http://www.oorsprong.org/websamples.countryinfo">
+            <sCountryISOCode>IND</sCountryISOCode>
+        </FullCountryInfo>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:22.645 [main] INFO  WSBaseClass.class - Response File Built for service FullCountryInfo : <?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Body>
+    <m:FullCountryInfoResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:FullCountryInfoResult>
+        <m:sISOCode>IN</m:sISOCode>
+        <m:sName>India</m:sName>
+        <m:sCapitalCity>New Delhi</m:sCapitalCity>
+        <m:sPhoneCode>91</m:sPhoneCode>
+        <m:sContinentCode>AS</m:sContinentCode>
+        <m:sCurrencyISOCode>INR</m:sCurrencyISOCode>
+        <m:sCountryFlag>http://www.oorsprong.org/WebSamples.CountryInfo/Flags/India.jpg</m:sCountryFlag>
+        <m:Languages>
+          <m:tLanguage>
+            <m:sISOCode>hin</m:sISOCode>
+            <m:sName>Hindi</m:sName>
+          </m:tLanguage>
+        </m:Languages>
+      </m:FullCountryInfoResult>
+    </m:FullCountryInfoResponse>
+  </soap:Body>
+</soap:Envelope>
+11:09:22.676 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: validate the country information. 
+----------------------------------------------------------------------
+11:09:22.676 [main] INFO  Hooks.class - Entered after scenario
+11:09:22.676 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:CountryInfo.feature, StartTime:2025-08-01T11:09:22.239+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:22.692 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: CurrencyDetails.feature
+11:09:22.723 [main] INFO  Hooks.class - Entered before scenario
+11:09:22.723 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: validate the currency name by using code. 
+----------------------------------------------------------------------(src/test/resources/features/countryInfo/CurrencyDetails.feature; validate the currency name by using code.)
+11:09:22.739 [main] INFO  WSBaseClass.class - Request file built for service for CurrencyName : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <CurrencyName xmlns="http://www.oorsprong.org/websamples.countryinfo">
+            <sCurrencyISOCode>INR</sCurrencyISOCode>
+        </CurrencyName>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:23.114 [main] INFO  WSBaseClass.class - Response File Built for service CurrencyName : <?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Body>
+    <m:CurrencyNameResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CurrencyNameResult>Rupees</m:CurrencyNameResult>
+    </m:CurrencyNameResponse>
+  </soap:Body>
+</soap:Envelope>
+11:09:23.161 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: validate the currency name by using code. 
+----------------------------------------------------------------------
+11:09:23.161 [main] INFO  Hooks.class - Entered after scenario
+11:09:23.161 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:CurrencyDetails.feature, StartTime:2025-08-01T11:09:22.708+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:23.192 [main] INFO  Hooks.class - Entered before scenario
+11:09:23.192 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: validate the currency name by using code. 
+----------------------------------------------------------------------(src/test/resources/features/countryInfo/CurrencyDetails.feature; validate the currency name by using code.)
+11:09:23.192 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\request\CurrencyName.xml is deleted
+11:09:23.192 [main] INFO  WSBaseClass.class - Request file built for service for CurrencyName : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <CurrencyName xmlns="http://www.oorsprong.org/websamples.countryinfo">
+            <sCurrencyISOCode>USD</sCurrencyISOCode>
+        </CurrencyName>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:23.192 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\response\CurrencyName.xml is deleted
+11:09:23.567 [main] INFO  WSBaseClass.class - Response File Built for service CurrencyName : <?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Body>
+    <m:CurrencyNameResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CurrencyNameResult>Dollars</m:CurrencyNameResult>
+    </m:CurrencyNameResponse>
+  </soap:Body>
+</soap:Envelope>
+11:09:23.583 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: validate the currency name by using code. 
+----------------------------------------------------------------------
+11:09:23.583 [main] INFO  Hooks.class - Entered after scenario
+11:09:23.583 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:CurrencyDetails.feature, StartTime:2025-08-01T11:09:23.176+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:23.614 [main] INFO  Hooks.class - Entered before scenario
+11:09:23.614 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: validate the currency name by using code. 
+----------------------------------------------------------------------(src/test/resources/features/countryInfo/CurrencyDetails.feature; validate the currency name by using code.)
+11:09:23.614 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\request\CurrencyName.xml is deleted
+11:09:23.614 [main] INFO  WSBaseClass.class - Request file built for service for CurrencyName : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <CurrencyName xmlns="http://www.oorsprong.org/websamples.countryinfo">
+            <sCurrencyISOCode>EUR</sCurrencyISOCode>
+        </CurrencyName>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:23.630 [main] INFO  WSBaseClass.class - file in the path: .\target\testxmls\response\CurrencyName.xml is deleted
+11:09:23.973 [main] INFO  WSBaseClass.class - Response File Built for service CurrencyName : <?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Body>
+    <m:CurrencyNameResponse xmlns:m="http://www.oorsprong.org/websamples.countryinfo">
+      <m:CurrencyNameResult>Euro</m:CurrencyNameResult>
+    </m:CurrencyNameResponse>
+  </soap:Body>
+</soap:Envelope>
+11:09:23.989 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: validate the currency name by using code. 
+----------------------------------------------------------------------
+11:09:23.989 [main] INFO  Hooks.class - Entered after scenario
+11:09:23.989 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:CurrencyDetails.feature, StartTime:2025-08-01T11:09:23.598+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:24.005 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: CelsiusToFahrenheit.feature
+11:09:24.020 [main] INFO  Hooks.class - Entered before scenario
+11:09:24.020 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: Convert the temperature celsius to fahrenheit 
+----------------------------------------------------------------------(src/test/resources/features/tempConvertor/CelsiusToFahrenheit.feature; Convert the temperature celsius to fahrenheit)
+11:09:24.036 [main] INFO  WSBaseClass.class - Request file built for service for CelsiusToFahrenheit : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <CelsiusToFahrenheit xmlns="https://www.w3schools.com/xml/">
+            <Celsius>45</Celsius>
+        </CelsiusToFahrenheit>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:25.069 [main] INFO  WSBaseClass.class - Response File Built for service CelsiusToFahrenheit : <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><CelsiusToFahrenheitResponse xmlns="https://www.w3schools.com/xml/"><CelsiusToFahrenheitResult>113</CelsiusToFahrenheitResult></CelsiusToFahrenheitResponse></soap:Body></soap:Envelope>
+11:09:25.085 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Convert the temperature celsius to fahrenheit 
+----------------------------------------------------------------------
+11:09:25.085 [main] INFO  Hooks.class - Entered after scenario
+11:09:25.100 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:1, Result:PASSED, Feature:CelsiusToFahrenheit.feature, StartTime:2025-08-01T11:09:24.005+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:25.100 [main] INFO  MyCustomListener.class - Global & Input values are cleared before feature started: FahrenheitToCelsius.feature
+11:09:25.116 [main] INFO  Hooks.class - Entered before scenario
+11:09:25.116 [main] INFO  MyCustomListener.class - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+TEST STARTED: Convert the temperature fahrenheit to celsius 
+----------------------------------------------------------------------(src/test/resources/features/tempConvertor/FahrenheitToCelsius.feature; Convert the temperature fahrenheit to celsius)
+11:09:25.132 [main] INFO  WSBaseClass.class - Request file built for service for FahrenheitToCelsius : <?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+    <soap12:Body>
+        <FahrenheitToCelsius xmlns="https://www.w3schools.com/xml/">
+            <Fahrenheit>300</Fahrenheit>
+        </FahrenheitToCelsius>
+    </soap12:Body>
+</soap12:Envelope>
+
+11:09:25.663 [main] INFO  WSBaseClass.class - Response File Built for service FahrenheitToCelsius : <?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><FahrenheitToCelsiusResponse xmlns="https://www.w3schools.com/xml/"><FahrenheitToCelsiusResult>148.888888888889</FahrenheitToCelsiusResult></FahrenheitToCelsiusResponse></soap:Body></soap:Envelope>
+11:09:25.694 [main] INFO  MyCustomListener.class - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Convert the temperature fahrenheit to celsius 
+----------------------------------------------------------------------
+11:09:25.694 [main] INFO  Hooks.class - Entered after scenario
+11:09:25.694 [main] INFO  MyCustomListener.class - Test finished outcome:: Duration:0, Result:PASSED, Feature:FahrenheitToCelsius.feature, StartTime:2025-08-01T11:09:25.116+05:30[Asia/Calcutta], TestFailedStep:0, TestFailedStepLine:null, FailureCause:null
+11:09:25.710 [main] INFO  Hooks.class - ===================== Run Statistics =====================
+11:09:25.710 [main] INFO  Hooks.class - Automation Suit Completed on null environment
+11:09:25.710 [main] INFO  MyCustomListener.class - Automation Suite Finished at: 2025-08-01 11:09:25
+11:09:25.710 [main] INFO  MyCustomListener.class - Run Duration: 0h 0m 14s
+11:09:25.710 [main] INFO  MyCustomListener.class - Run status: PASSED

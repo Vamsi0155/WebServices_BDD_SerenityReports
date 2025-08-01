@@ -1,0 +1,22 @@
+<Validation>
+    <XMLTag>
+        <ExpectedParameter>country_name</ExpectedParameter>
+        <Tag>sName</Tag>
+        <RequestFile>FullCountryInfo</RequestFile>
+    </XMLTag>
+    <XMLTag>
+        <ExpectedParameter>capital_city</ExpectedParameter>
+        <Tag>sCapitalCity</Tag>
+        <RequestFile>FullCountryInfo</RequestFile>
+    </XMLTag>
+    <XMLTag>
+        <ExpectedParameter>currency</ExpectedParameter>
+        <Tag>sCurrencyISOCode</Tag>
+        <RequestFile>FullCountryInfo</RequestFile>
+    </XMLTag>
+    <XMLTag>
+        <ExpectedParameter>flag</ExpectedParameter>
+        <Tag>sCountryFlag</Tag>
+        <RequestFile>FullCountryInfo</RequestFile>
+    </XMLTag>
+</Validation>

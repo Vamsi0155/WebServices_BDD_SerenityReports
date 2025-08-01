@@ -1,0 +1,7 @@
+<Validation>
+    <XMLTag>
+        <ExpectedParameter>results</ExpectedParameter>
+        <Tag>FahrenheitToCelsiusResult</Tag>
+        <RequestFile>FahrenheitToCelsius</RequestFile>
+    </XMLTag>
+</Validation>
