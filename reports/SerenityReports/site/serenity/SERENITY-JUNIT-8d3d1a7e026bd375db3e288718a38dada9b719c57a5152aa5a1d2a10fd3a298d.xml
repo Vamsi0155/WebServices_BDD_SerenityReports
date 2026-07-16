@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="0" name="As a user, I want to validate the All country names by using ISO codes" skipped="0" tests="4" time="0.05" timestamp="2025-08-01 11:09:20"><testcase name="validate the country name by using ISO code."/><testcase name="validate the country ISO code by using name."/></testsuite>
